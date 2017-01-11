@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="联系电话：18645455656"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_context"
+        android:id="@+id/textView"
+        android:textSize="16sp"
+        android:padding="20dp"/>
+    <TextView
+        android:text="商家地址：花果山那个水帘洞"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_context"
+        android:textSize="16sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:text="配送时间：10：00--20：00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_context"
+        android:textSize="16sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:text="配送服务：美猴王配送"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_context"
+        android:textSize="16sp"
+        android:padding="20dp"/>
+
+
+</LinearLayout>

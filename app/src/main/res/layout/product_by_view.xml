@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    >
+    <!--此颜色只是为了突出状态栏的颜色-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/yrd_top_titlebar"
+        android:background="@color/bag_gray"
+        android:orientation="vertical">
+
+        <!-- 选项卡 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!-- tab1 -->
+
+            <TextView
+                android:id="@+id/tab1_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="商品"
+                android:textColor="@color/title_bag"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tab2_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="评价"
+                android:textColor="@color/text_color_context"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tab3_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="详情"
+                android:textColor="@color/text_color_context"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/title_content_layout"
+            android:background="@color/text_color_context" />
+
+        <View
+            android:id="@+id/cursor"
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dip"
+            android:background="@color/title_bag" />
+        <!-- 选项卡内容显示区域 -->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/third_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

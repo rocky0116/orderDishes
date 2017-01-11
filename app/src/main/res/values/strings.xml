@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="cart">购物车</string>
+    <string name="cart_clear">清空全部</string>
+</resources>

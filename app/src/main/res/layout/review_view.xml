@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:textColor="@color/text_color_context"
+    android:textSize="16sp"
+    android:padding="20dp"
+    android:text="比uhjkjkkjkhjkhkj行货价格空间和健康卡和健康和空间客户将会加快会很快很快客家话"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_context"
+        android:textSize="16sp"
+        android:padding="20dp"
+        android:text="比uhjkjkkjkhjkhkj行货价格空间和健康卡和健康和空间客户将会加快会很快很快客家话"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_context"
+        android:textSize="16sp"
+        android:padding="20dp"
+        android:text="比uhjkjkkjkhjkhkj行货价格空间和健康卡和健康和空间客户将会加快会很快很快客家话"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_context"
+        android:text="比uhjkjkkjkhjkhkj行货价格空间和健康卡和健康和空间客户将会加快会很快很快客家话"/>
+
+</LinearLayout>
