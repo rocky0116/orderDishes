@@ -3,7 +3,7 @@
  欢迎大家进群：574605026   开启我们的开发之旅
 
 先看图：
-<Img src="../screen/应用宝动态截屏2017011101.gif"/>
+<Img src="screen/应用宝动态截屏2017011101.gif"/>
 
 1、布局，左右分别是listview，我用left和right标识
 2、事件，左边listview点击事件(onitemonclick)改变右边的listview的滚动位置，其次右边listview滚动事件(onscrollListener)改变左边listview的位置。
